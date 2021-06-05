@@ -1,11 +1,11 @@
 <template>
-  <div class="container">
+  <div class="">
     <div>
-      <h1 class="title">
+      <h1 class="">
         Felix M. Tang's
       </h1>
-      <h2 class="subtitle">Personal Website</h2>
-      <div class="links">
+      <h2 class="">Personal Website</h2>
+      <div class="">
         <a class="" href="https://blog.tangmeifa.com">中文博客</a>
       </div>
     </div>
@@ -17,47 +17,5 @@ export default {}
 </script>
 
 <style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: left;
-}
 
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 800;
-  font-size: 80px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 400;
-  font-size: 20px;
-  color: #6f7070;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>
