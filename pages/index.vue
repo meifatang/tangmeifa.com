@@ -5,9 +5,8 @@
         Felix M. Tang's
       </h1>
       <h2 class="subtitle">Personal Website</h2>
-      <p>coming soon ...</p>
       <div class="links">
-        <a href="https://blog.tangmeifa.com">Personal Blog</a>
+        <a class="" href="https://blog.tangmeifa.com">中文博客</a>
       </div>
     </div>
   </div>
@@ -29,7 +28,7 @@ export default {}
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: left;
 }
 
 .title {
@@ -44,16 +43,16 @@ export default {}
     Arial,
     sans-serif;
   display: block;
-  font-weight: 500;
-  font-size: 100px;
+  font-weight: 800;
+  font-size: 80px;
   color: #35495e;
   letter-spacing: 1px;
 }
 
 .subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
+  font-weight: 400;
+  font-size: 20px;
+  color: #6f7070;
   word-spacing: 5px;
   padding-bottom: 15px;
 }
