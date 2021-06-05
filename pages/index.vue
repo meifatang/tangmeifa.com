@@ -2,10 +2,12 @@
   <div class="container">
     <div>
       <h1 class="title">
-        Felix M. Tang's Personal Website
+        Felix M. Tang's
       </h1>
-      <p>coming soon...</p>
+      <h2 class="subtitle">Personal Website</h2>
+      <p>coming soon ...</p>
       <div class="links">
+        <a href="https://blog.tangmeifa.com">Personal Blog</a>
       </div>
     </div>
   </div>
@@ -43,7 +45,7 @@ export default {}
     sans-serif;
   display: block;
   font-weight: 500;
-  font-size: 200px;
+  font-size: 100px;
   color: #35495e;
   letter-spacing: 1px;
 }
