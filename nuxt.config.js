@@ -40,6 +40,7 @@ export default {
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    '@nuxtjs/robots',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -57,5 +58,20 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+
+  robots: [
+    {
+      UserAgent: 'Googlebot',
+      Allow: '/'
+    },
+    {
+      UserAgent: 'Bingbot',
+      Allow: '/'
+    },
+    {
+      UserAgent: '*',
+      Disallow: '/'
+    }
+  ]
 }
