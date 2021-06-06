@@ -49,8 +49,10 @@ export default {
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
-    manifest: {
-      lang: 'en'
+    mainfest: {
+      name: 'Felix Tang',
+      short_name: 'Felix',
+      lang: 'en',
     }
   },
 
