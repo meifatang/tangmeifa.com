@@ -74,5 +74,9 @@ export default {
       UserAgent: '*',
       Disallow: '/'
     }
-  ]
+  ],
+
+  sitemap: {
+    hostname: 'https://tangmeifa.com',
+  },
 }
