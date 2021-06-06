@@ -50,13 +50,7 @@ export default {
   axios: {},
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
-  pwa: {
-    mainfest: {
-      name: 'Felix Tang',
-      short_name: 'Felix',
-      lang: 'en',
-    }
-  },
+  pwa: {},
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
