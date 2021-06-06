@@ -1,24 +1,27 @@
 <template>
-  <article>
-    <h1>
-        <a v-bind:href="article.path">{{ article.title }}</a>
-    </h1>
-    <br />
-  </article>
+    <div class="">
+      <ul>
+        <li v-for="item in articles" :key="item.title">
+          <a v-bind:href="item.path">{{ item.title }}</a>
+        </li>
+      </ul>
+    </div>
 </template>
 
 <script>
 export default {
   async asyncData ({ $content, app, params, error }) {
     //const path = `/${params.pathMatch || 'index'}`
-    const [article] = await $content({ deep: true }).only(['title']).fetch()
+    const articles = await $content({ deep: true }).only(['title']).fetch()
 
-    if (!article) {
+    console.log(articles)
+
+    if (!articles) {
       return error({ statusCode: 404, message: 'Article not found' })
     }
 
     return {
-      article
+      articles
     }
   }
 }
