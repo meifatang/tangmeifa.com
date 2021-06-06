@@ -30,15 +30,14 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-
-    // https://go.nuxtjs.dev/pwa
-    '@nuxtjs/pwa',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',    
+    // https://go.nuxtjs.dev/pwa
+    '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
 
@@ -53,7 +52,10 @@ export default {
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
-    name: 'Felix M. Tang',
+    manifest: {
+      name: 'Felix Personal Web App',
+      useWebmanifestExtension: false
+    }
   },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
