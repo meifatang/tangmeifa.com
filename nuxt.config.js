@@ -44,13 +44,17 @@ export default {
 
     '@nuxtjs/robots',
     '@nuxtjs/sitemap',
+
+    'nuxt-i18n',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
-  pwa: {},
+  pwa: {
+    name: 'Felix M. Tang',
+  },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
@@ -76,5 +80,21 @@ export default {
 
   sitemap: {
     hostname: 'https://tangmeifa.com',
+  },
+
+  i18n: {
+    locales: ['en', 'zh'],
+    defaultLocale: 'en',
+    vueI18n: {
+      fallbackLocale: 'en',
+      messages: {
+        en: {
+          welcome: 'Welcome'
+        },
+        zh: {
+          welcome: '欢迎'
+        },
+      }
+    }
   },
 }
