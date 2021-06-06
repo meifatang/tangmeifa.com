@@ -37,6 +37,11 @@
       </nav>
     </div>
   </div>
+  <div class="flex justify-center">
+    <h1 class="text-6xl mt-0 mb-2 p-24 font-black">
+    Felix M. Tang's Web Application
+    </h1>
+  </div>
 </div>
 </template>
 
