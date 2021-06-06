@@ -37,11 +37,18 @@
       </nav>
     </div>
   </div>
+
   <div class="flex justify-center">
-    <h1 class="text-6xl mt-0 mb-2 p-24 font-black">
+    <h1 class="text-4xl mt-0 mb-2 p-24 font-black">
     Felix M. Tang's Web Application
     </h1>
   </div>
+
+  <footer class="">
+    <div class="flex justify-center">
+      © 2021 by 汤美法. All rights reserved.
+    </div>
+  </footer>
 </div>
 </template>
 
