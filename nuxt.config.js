@@ -30,16 +30,18 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+
+    // https://go.nuxtjs.dev/pwa
+    '@nuxtjs/pwa',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios',
-    // https://go.nuxtjs.dev/pwa
-    '@nuxtjs/pwa',
+    '@nuxtjs/axios',    
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+
     '@nuxtjs/robots',
     '@nuxtjs/sitemap',
   ],
@@ -52,7 +54,10 @@ export default {
     mainfest: {
       name: 'Felix Tang',
       short_name: 'Felix',
+      display: 'standalone',
       lang: 'en',
+      useWebmanifestExtension: false,
+      start_url: '/',
     }
   },
 
