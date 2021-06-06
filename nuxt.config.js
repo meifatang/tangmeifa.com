@@ -54,10 +54,7 @@ export default {
     mainfest: {
       name: 'Felix Tang',
       short_name: 'Felix',
-      display: 'standalone',
       lang: 'en',
-      useWebmanifestExtension: false,
-      start_url: '/',
     }
   },
 
