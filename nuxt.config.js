@@ -54,7 +54,8 @@ export default {
   pwa: {
     manifest: {
       name: 'Felix Personal Web App',
-      useWebmanifestExtension: false
+      short_name: 'Felix App',
+      useWebmanifestExtension: false,
     }
   },
 
