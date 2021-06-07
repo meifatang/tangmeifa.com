@@ -40,7 +40,7 @@
     <h1 class="text-4xl font-black mb-3">
       Felix Tang's Web App
     </h1>
-    <p>An Engineer and Hacker</p>    
+    <p>An Engineer and Hacker</p>
   </main>
 
   <footer class="flex justify-between mt-0 px-24">
