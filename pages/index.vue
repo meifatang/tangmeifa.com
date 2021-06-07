@@ -1,5 +1,5 @@
 <template>
-<div class="flex flex-col py-2">
+<div class="flex flex-col">
   <header class="w-full px-4">
     <nav class="relative flex flex-wrap items-center justify-between px-2 py-3 bg-emerald-500 rounded">
       <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
@@ -36,11 +36,10 @@
     </nav>
   </header>
 
-  <main class="mb-48 px-28">
-    <h1 class="text-4xl font-black mb-3">
-      Felix Tang's Web App
-    </h1>
-    <p>An Engineer and Hacker</p>
+  <main class="">
+    <section>
+      <img class="w-full" src="/tmf.jpeg" alt="tmf">  
+    </section>
   </main>
 
   <footer class="flex justify-between mt-0 px-24">
