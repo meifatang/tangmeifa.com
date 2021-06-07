@@ -1,6 +1,6 @@
 <template>
 <div class="flex flex-col">
-  <header class="w-full px-4">
+  <header class="w-full px-4 z-10">
     <nav class="relative flex flex-wrap items-center justify-between px-2 py-3 bg-emerald-500 rounded">
       <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
         <div class="w-full relative flex justify-between lg:w-auto px-4 lg:static lg:block lg:justify-start">
@@ -36,9 +36,9 @@
     </nav>
   </header>
 
-  <main class="">
+  <main class="absolute w-full">
     <section>
-      <img class="w-full" src="/tmf.jpeg" alt="tmf">  
+      <img class="w-full max-screen object-cover" src="/tmf.jpeg" alt="tmf">  
     </section>
   </main>
 
